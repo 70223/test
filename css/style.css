@@ -59,7 +59,7 @@ background-color:skyblue;
 }
 #middlemain p{
 	text-indent:2em;
-	
+	background-color: yellow;
 }
 #bottomcopyright{
 	float:left;
