@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<script> <!-- jQuery-->
+			$(document).ready(function(){
+					
+				$("#headcolor").click(function(){
+					$(this).hide();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- 顶部横幅 -->
+		<!-- <embed src="banner.swf"></embed> -->
+		<!-- <img src="banner.jpg"> -->
+		<img src="img/example.png"; width=906px; height=200px;>
+		<ul>
+			<!-- 顶部导航 -->
+			<div id="headcolor">
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+			<li>text4</li>
+			<li>text5</li>
+			<li>text6</li>
+			<li>text7</li>
+			<li>text8</li>
+			<li>text9</li>
+			</div>
+		</ul>
+		<div id="leftwindow">
+			<!-- 左上方轮播滚动图片，暂无轮播代码 -->
+			<marquee scrollamount=50; scrolldelay=250; onmouseover=this.stop(); onmouseout=this.start();>
+				<a href="#list1"><img src="img/example.png"; width=200px; height=200px;>
+				<a href="#list2"><img src="img/example.png"; width=200px; height=200px;>
+				<a href="#list3"><img src="img/example.png"; width=200px; height=200px;>
+				</marquee>
+				<p align="center">textarea</p>
+		</div>
+		<div id="leftlist">
+		<!-- 左方导航栏 -->
+		<h1 id="list1">list1</h1>
+		<ul>
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+		</ul>
+		<h1 id="list2">list2</h1>
+		<ul>
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+			<li>text4</li>
+			<li>text5</li>
+		</ul>
+		<h1 id="list3">list3</h1>		
+		<ul>
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+		</ul>
+		</div>
+		<div id="upperbanner">
+			<marquee onmouseover=this.stop(); onmouseout=this.start();>
+			<img src="img/example.png"; height=300px; width=500px;>
+			<img src="img/example.png"; height=300px; width=500px;>
+			<img src="img/example.png"; height=300px; width=500px;>
+		<!-- 这里轮播滚动新闻图片，暂无轮播代码 -->
+		</marquee>
+		</div>
+		<div id="rightintroduce">
+			<!-- 这里放介绍之类的 -->
+			<p>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+		</div>
+		<div id="middlemain">
+			<!-- 主要用于显示点击左方list后出现的对应介绍界面，未点击时默认显示第一个？ -->
+		</div>
+		<div id="bottomcopyright">
+		<!-- 用来放所谓版权之类的东西 -->
+		</div>
+	</body>
+</html>
