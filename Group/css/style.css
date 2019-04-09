@@ -1,0 +1,71 @@
+#headcolor{
+	background-color:orange;
+	height:20px;
+	width:820px;
+}
+#headcolor li{
+	list-style-type:none;
+	float:left;
+	margin-left:50px;
+}
+#leftwindow{
+float:left;
+border-left:3px solid gold;
+border-right:3px solid gold;
+border-top:3px solid gold;
+border-bottom:1.5px solid gold;
+height:250px;
+width:200px;
+background-color:pink;
+}
+#leftlist{
+float:left;
+margin-top:254px;
+margin-left:-206px;
+border-left:3px solid gold;
+border-right:3px solid gold;
+border-bottom:3px solid gold;
+border-top:1.5px solid gold;
+height:500px;
+width:200px;
+background-color:skyblue;
+}
+#leftlist h1{
+	padding-left:15px;
+}
+#upperbanner{
+	float:left;
+	background-color:gray;
+	height:300px;
+	width:500px;
+}
+#rightintroduce{
+	float:left;
+	height:300px;
+	width:200px;
+	background-color:yellow;
+}
+#rightintroduce p{
+	text-indent:2em;
+	font-family:微软雅黑;
+}
+#middlemain{
+	margin-top:300px;
+	margin-left:-700px;
+	float:left;
+	height:458px;
+	width:700px;
+	background-color:firebrick;
+}
+#middlemain p{
+	text-indent:2em;
+	background-color: yellow;
+}
+#bottomcopyright{
+	float:left;
+	margin-top:758px;
+	margin-left:-906px;
+	height:100px;
+	width:906px;
+	background-color:orange;
+}
